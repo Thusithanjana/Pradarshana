@@ -24,91 +24,75 @@
 
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span>
+                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span>
                             Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./artists.html"><span
+                    <li class="nav-item "><a class="nav-link" href="./artists.html"><span
                                 class="fa fa-info fa-lg"></span>
                             Artists</a></li>
 
-                    <li class="nav-item"><a class="nav-link" href="./newExhib.html"><span
-                                class="fa fa-plus fa-lg"></span>
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-plus fa-lg"></span>
                             New Exhibition</a></li>
 
                 </ul>
 
-            
+
             </div>
 
 
         </div>
 
     </nav>
-
-    <div class="container pt-5">
+    <div class="container myform">
+        <div class="card card-body">  
+        
         <div class="row row-content">
-            <div class="col">
-                <div id="mycarousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <img class="d-block img-fluid" src="img/DA1.jpg" alt="">
 
-                        </div>
-
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid" src="img/DA2.jpg" alt="">
-
-                        </div>
-
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid" src="img/DA3.jpg" alt="">
-
-                        </div>
-
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid" src="img/DA4.jpg" alt="">
-
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid" src="img/DA5.jpg" alt="">
-
-                        </div>
-
-                    </div>
-                    <ol class="carousel-indicators">
-                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#mycarousel" data-slide-to="1"></li>
-                        <li data-target="#mycarousel" data-slide-to="2"></li>
-                        <li data-target="#mycarousel" data-slide-to="3"></li>
-                        <li data-target="#mycarousel" data-slide-to="4"></li>
-                    </ol>
-                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-
-
-                </div>               
-
-
-            </div>
-            <button class="col-md-2 btn btn-success">Bid</button>
-
-
+        
+        <div class="myform col-sm-6 col-6">
+            <form action="/index.html">
+                <div class="form-group">
+                    <label for="nameEX">Exhibition Name:</label>
+                    <input type="name" class="form-control" placeholder="Enter Exhibition Name" id="nameEX">
+                </div>
+                <div class="form-group">
+                    <label for="sdate">Starting date:</label>
+                    <input type="date" class="form-control" placeholder="" id="sdate">
+                </div>
+                <div class="form-group">
+                    <label for="edate">Ending date:</label>
+                    <input type="date" class="form-control" placeholder="" id="edate">
+                </div>
+                <div class="form-group">
+                    <label for="nameEX">No. of exhibits</label>
+                    <input type="number" class="form-control" placeholder="Enter No. of Exhibits" id="nameEX">
+                </div>
+    
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
 
         </div>
+        <div class="col-sm-6 col-6">
+            <img class="img-fluid" src="/img/logo.png" alt="">
+
+        </div>
+    </div>
+        
+    </div>
+
 
     </div>
 
 
+
+
+
     <footer class="footer">
         <div class="container mt-5 pt-2">
-            <div class="row ">
+            <div class="row">
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#">Home</a></li>
                         <li><a href="./artists.html">Artists</a></li>
                     </ul>
                 </div>
@@ -120,7 +104,8 @@
                         Sri Lanka<br>
                         <i class="fa fa-phone fa-lg"></i>: +94 2222 222<br>
                         <i class="fa fa-fax fa-lg"></i>: +94 3332 333<br>
-                        <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:inquiries@pradarshana.com">inquiries@pradarshana.com</a>
+                        <i class="fa fa-envelope fa-lg"></i>: <a
+                            href="mailto:inquiries@pradarshana.com">inquiries@pradarshana.com</a>
                     </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
@@ -146,6 +131,7 @@
             </div>
         </div>
     </footer>
+
 
 
 
